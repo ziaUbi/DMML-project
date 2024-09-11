@@ -1,6 +1,7 @@
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import TargetEncoder
 import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
 
 columns = ['duration', 'protocol_type', 'service', 'flag', 'src_bytes', 'dst_bytes', 'land', 'wrong_fragment',
            'urgent', 'hot', 'num_failed_logins', 'logged_in', 'num_compromised', 'root_shell', 'su_attempted',
@@ -10,6 +11,10 @@ columns = ['duration', 'protocol_type', 'service', 'flag', 'src_bytes', 'dst_byt
            'dst_host_same_srv_rate', 'dst_host_diff_srv_rate', 'dst_host_same_src_port_rate',
            'dst_host_srv_diff_host_rate', 'dst_host_serror_rate', 'dst_host_srv_serror_rate', 'dst_host_rerror_rate',
            'dst_host_srv_rerror_rate', 'label', 'score']
+
+nominal_features = ['protocol_type', 'service', 'flag']
+binary_features = ['land', 'logged_in', 'root_shell', 'su_attempted', 'is_host_login', 'is_guest_login']
+numeric_features = [feature for feature in columns if feature not in nominal_features + binary_features + ['label', 'score', 'num_outbound_cmds']]
 
 def assign_attack_type(label):
     attack_dict = { 'normal': 'normal',
@@ -58,6 +63,18 @@ def t_encoder(train_df, test_df, nominal_features):
     test_t = pd.concat([test_t, pd.DataFrame(test_encoded, columns=nominal_features)], axis=1)
 
     return train_t, test_t
+
+def scaler(train_df, test_df, scaler = MinMaxScaler()):
+    train_scaled = scaler.fit_transform(train_df[numeric_features])
+    test_scaled = scaler.transform(test_df[numeric_features])
+
+    train_ss = train_df.drop(numeric_features, axis=1)
+    train_ss = pd.concat([train_ss, pd.DataFrame(train_scaled, columns=numeric_features)], axis=1)
+
+    test_ss = test_df.drop(numeric_features, axis=1)
+    test_ss = pd.concat([test_ss, pd.DataFrame(test_scaled, columns=numeric_features)], axis=1)
+
+    return train_ss, test_ss
 
 class Dataset:    
     def __init__(self, data):
