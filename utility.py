@@ -2,6 +2,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import TargetEncoder
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import LabelEncoder
 
 columns = ['duration', 'protocol_type', 'service', 'flag', 'src_bytes', 'dst_bytes', 'land', 'wrong_fragment',
            'urgent', 'hot', 'num_failed_logins', 'logged_in', 'num_compromised', 'root_shell', 'su_attempted',
@@ -64,6 +65,14 @@ def t_encoder(train_df, test_df, nominal_features):
 
     return train_t, test_t
 
+def l_encoder(train_df, test_df, nominal_features):
+    enc = LabelEncoder()
+    for feature in nominal_features:
+        train_df[feature] = enc.fit_transform(train_df[feature])
+        test_df[feature] = enc.transform(test_df[feature])
+
+    return train_df, test_df
+
 def scaler(train_df, test_df, scaler = MinMaxScaler()):
     train_scaled = scaler.fit_transform(train_df[numeric_features])
     test_scaled = scaler.transform(test_df[numeric_features])
@@ -84,6 +93,7 @@ class Dataset:
         self.data['su_attempted'] = self.data['su_attempted'].replace(2, 0)
         # 'num_outbound_cmds' ha sempre lo stesso valore quindi possiamo dropparla
         self.data = self.data.drop('num_outbound_cmds', axis=1)
+        self.data = self.data.drop('score', axis=1)
 
     def get_data(self):
         return self.data
