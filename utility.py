@@ -1,21 +1,12 @@
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import TargetEncoder
 import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.preprocessing import LabelEncoder
-
-columns = ['duration', 'protocol_type', 'service', 'flag', 'src_bytes', 'dst_bytes', 'land', 'wrong_fragment',
-           'urgent', 'hot', 'num_failed_logins', 'logged_in', 'num_compromised', 'root_shell', 'su_attempted',
-           'num_root', 'num_file_creations', 'num_shells', 'num_access_files', 'num_outbound_cmds', 'is_host_login',
-           'is_guest_login', 'count', 'srv_count', 'serror_rate', 'srv_serror_rate', 'rerror_rate', 'srv_rerror_rate',
-           'same_srv_rate', 'diff_srv_rate', 'srv_diff_host_rate', 'dst_host_count', 'dst_host_srv_count',
-           'dst_host_same_srv_rate', 'dst_host_diff_srv_rate', 'dst_host_same_src_port_rate',
-           'dst_host_srv_diff_host_rate', 'dst_host_serror_rate', 'dst_host_srv_serror_rate', 'dst_host_rerror_rate',
-           'dst_host_srv_rerror_rate', 'label', 'score']
-
-nominal_features = ['protocol_type', 'service', 'flag']
-binary_features = ['land', 'logged_in', 'root_shell', 'su_attempted', 'is_host_login', 'is_guest_login']
-numeric_features = [feature for feature in columns if feature not in nominal_features + binary_features + ['label', 'score', 'num_outbound_cmds']]
+import numpy as np
+from sklearn.preprocessing import OneHotEncoder, TargetEncoder, MinMaxScaler, LabelEncoder
+from sklearn.feature_selection import SelectKBest,  SequentialFeatureSelector, RFE
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import StratifiedKFold
+from sklearn.decomposition import PCA
+from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, recall_score, precision_score, f1_score, roc_auc_score
+from sklearn.metrics import RocCurveDisplay
 
 def assign_attack_type(label):
     attack_dict = { 'normal': 'normal',
@@ -73,20 +64,101 @@ def l_encoder(train_df, test_df, nominal_features):
 
     return train_df, test_df
 
-def scaler(train_df, test_df, scaler = MinMaxScaler()):
-    train_scaled = scaler.fit_transform(train_df[numeric_features])
-    test_scaled = scaler.transform(test_df[numeric_features])
+def scaler(train_df, test_df, numeric_features, scaler = MinMaxScaler()):
+    train_df[numeric_features] = scaler.fit_transform(train_df[numeric_features])
+    test_df[numeric_features] = scaler.transform(test_df[numeric_features])
 
-    train_ss = train_df.drop(numeric_features, axis=1)
-    train_ss = pd.concat([train_ss, pd.DataFrame(train_scaled, columns=numeric_features)], axis=1)
+    return train_df, test_df
 
-    test_ss = test_df.drop(numeric_features, axis=1)
-    test_ss = pd.concat([test_ss, pd.DataFrame(test_scaled, columns=numeric_features)], axis=1)
+def get_best_features(train_data, test_data, score_func, k):
+    X = train_data.drop(['label'], axis=1)
+    y = train_data['label']
+    selector = SelectKBest(score_func=score_func, k = k).fit(X, y)
+    X_train_selected = selector.transform(X)
+    X_test_selected = selector.transform(test_data.drop(['label'], axis=1))
+    selected_features = X.columns[selector.get_support()]
+    print(selected_features)
+    return X_train_selected, X_test_selected
 
-    return train_ss, test_ss
+def cfs(train_data, test_data):
+    X_train = train_data.drop(['label'], axis=1)
+    X_test = test_data.drop(['label'], axis=1)
+    corr_matrix = X_train.corr().abs()
+    upper = corr_matrix.where(np.triu(np.ones(corr_matrix.shape), k=1).astype(bool))
+    to_drop = [column for column in upper.columns if any(upper[column] > 0.9)]
+    X_train = X_train.drop(to_drop, axis=1)
+    X_test = X_test.drop(to_drop, axis=1)
+    return X_train, X_test
+
+def rfe(train_data, test_data, k):
+    X = train_data.drop(['label'], axis=1)
+    y = train_data['label']
+    X_test = test_data.drop(['label'], axis=1)
+
+    model = RandomForestClassifier()
+    rfe = RFE(model, 
+              n_features_to_select=k).fit(X, y)
+    X_train_selected = rfe.transform(X)
+    X_test_selected = rfe.transform(X_test)
+    print(X.columns[rfe.get_support()])
+    return X_train_selected, X_test_selected
+
+def sfs(train_data, test_data, k):
+    X = train_data.drop(['label'], axis=1)
+    y = train_data['label']
+    X_test = test_data.drop(['label'], axis=1)
+
+    model = RandomForestClassifier()
+    sfs = SequentialFeatureSelector(model, 
+                                    cv = StratifiedKFold(n_splits=5, random_state=123, shuffle=True),
+                                    scoring = 'accuracy', 
+                                    direction='forward', 
+                                    n_features_to_select=k).fit(X, y)
+    X_train_selected = sfs.transform(X)
+    X_test_selected = sfs.transform(X_test)
+    print(X.columns[sfs.get_support()])
+    return X_train_selected, X_test_selected
+
+def pca(train_data, test_data, k):
+    X = train_data.drop(['label'], axis=1)
+    X_test = test_data.drop(['label'], axis=1)
+
+    pca = PCA(n_components=k)
+    X_train_pca = pca.fit_transform(X)
+    X_test_pca = pca.transform(X_test)
+    
+    print(X_train_pca.shape)
+    print(pca.components_)
+    print(pca.explained_variance_ratio_)
+    print(pca.explained_variance_)
+    print(pca.singular_values_)
+    print(pca.singular_values_.sum())
+
+    return X_train_pca, X_test_pca
+
+def eval_metric(model, X_train, y_train, X_test, y_test):
+    y_train_pred = model.predict(X_train)
+    y_pred = model.predict(X_test)
+    y_pred_proba = model.predict_proba(X_test)
+    
+    print("Test_Set")
+    print(confusion_matrix(y_test, y_pred))
+    print(classification_report(y_test, y_pred))
+    print()
+    print("Train_Set")
+    print(confusion_matrix(y_train, y_train_pred))
+    print(classification_report(y_train, y_train_pred))
+    print("Other Metrics")
+    print("Accuracy: ", accuracy_score(y_test, y_pred))
+    print("Recall: ", recall_score(y_test, y_pred, average='weighted'))
+    print("Precision: ", precision_score(y_test, y_pred, average='weighted'))
+    print("F1: ", f1_score(y_test, y_pred, average='weighted'))
+    print("ROC_AUC: ", roc_auc_score(y_test, y_pred_proba[:,1]))
+
+    RocCurveDisplay.from_estimator(model, X_test, y_test)
 
 class Dataset:    
-    def __init__(self, data):
+    def __init__(self, data, columns):
         self.data = data
         self.data.columns = columns
         # 'su_attempted' dovrebbe essere binario ma ha 3 valori. Sostituiamo '2.0' con '0.0'
