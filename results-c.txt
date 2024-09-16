@@ -1,0 +1,1121 @@
+scalato - one hot dataset
+Selecting 10 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.77      0.85     12833
+      normal       0.76      0.94      0.84      9711
+
+    accuracy                           0.84     22544
+   macro avg       0.85      0.85      0.84     22544
+weighted avg       0.86      0.84      0.84     22544
+Selecting 11 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.77      0.84     12833
+      normal       0.75      0.93      0.83      9711
+
+    accuracy                           0.84     22544
+   macro avg       0.84      0.85      0.84     22544
+weighted avg       0.85      0.84      0.84     22544
+Selecting 12 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.69      0.81     12833
+      normal       0.70      0.97      0.82      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.84      0.83      0.81     22544
+weighted avg       0.86      0.81      0.81     22544
+Selecting 13 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.68      0.80     12833
+      normal       0.70      0.97      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.85      0.81      0.81     22544
+Selecting 14 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 15 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.83      0.82     22544
+weighted avg       0.86      0.82      0.81     22544
+Selecting 16 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 17 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 18 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.74      0.84     12833
+      normal       0.74      0.97      0.84      9711
+
+    accuracy                           0.84     22544
+   macro avg       0.85      0.85      0.84     22544
+weighted avg       0.87      0.84      0.84     22544
+Selecting 19 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.82     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 20 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.68      0.80     12833
+      normal       0.69      0.97      0.81      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.83      0.82      0.80     22544
+weighted avg       0.85      0.80      0.80     22544
+Selecting 21 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 22 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.72      0.83     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.84      0.83     22544
+weighted avg       0.86      0.83      0.83     22544
+Selecting 23 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 24 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 25 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 26 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.72      0.82     12833
+      normal       0.72      0.95      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.85      0.82      0.82     22544
+Selecting 27 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.71      0.82     12833
+      normal       0.72      0.96      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.83      0.82     22544
+weighted avg       0.85      0.82      0.82     22544
+Selecting 28 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.83      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 29 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.67      0.79     12833
+      normal       0.69      0.97      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.84      0.80      0.79     22544
+Selecting 30 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.65      0.78     12833
+      normal       0.68      0.97      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.82      0.81      0.79     22544
+weighted avg       0.84      0.79      0.79     22544
+Selecting 31 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.69      0.80     12833
+      normal       0.70      0.94      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 32 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.71      0.81     12833
+      normal       0.71      0.95      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.85      0.81      0.81     22544
+Selecting 33 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.69      0.80     12833
+      normal       0.70      0.97      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.85      0.81      0.81     22544
+Selecting 34 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 35 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 36 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.66      0.79     12833
+      normal       0.69      0.97      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.83      0.82      0.80     22544
+weighted avg       0.85      0.80      0.79     22544
+Selecting 37 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.69      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.84      0.83      0.81     22544
+weighted avg       0.86      0.81      0.81     22544
+Selecting 38 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.69      0.79     12833
+      normal       0.69      0.94      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.81      0.81      0.79     22544
+weighted avg       0.83      0.79      0.79     22544
+Selecting 39 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.71      0.81     12833
+      normal       0.71      0.94      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.84      0.81      0.81     22544
+Selecting 40 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.84     12833
+      normal       0.73      0.97      0.84      9711
+
+    accuracy                           0.84     22544
+   macro avg       0.85      0.85      0.84     22544
+weighted avg       0.87      0.84      0.84     22544
+Selecting 41 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 42 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.72      0.81     12833
+      normal       0.71      0.94      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.84      0.81      0.81     22544
+Selecting 43 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.69      0.81     12833
+      normal       0.70      0.97      0.82      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.84      0.83      0.81     22544
+weighted avg       0.85      0.81      0.81     22544
+Selecting 44 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 45 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.69      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.84      0.83      0.81     22544
+weighted avg       0.86      0.81      0.81     22544
+Selecting 46 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 47 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.72      0.82     12833
+      normal       0.72      0.96      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 48 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 49 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 50 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 51 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.69      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.84      0.83      0.81     22544
+weighted avg       0.85      0.81      0.81     22544
+Selecting 52 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.83      0.82     22544
+weighted avg       0.86      0.82      0.81     22544
+Selecting 53 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.68      0.80     12833
+      normal       0.70      0.97      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.85      0.81      0.80     22544
+Selecting 54 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 55 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.66      0.79     12833
+      normal       0.69      0.97      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.83      0.82      0.79     22544
+weighted avg       0.85      0.79      0.79     22544
+Selecting 56 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 57 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.69      0.80     12833
+      normal       0.70      0.97      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.85      0.81      0.81     22544
+Selecting 58 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.68      0.78     12833
+      normal       0.68      0.93      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 59 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 60 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 61 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.68      0.80     12833
+      normal       0.69      0.97      0.81      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.83      0.82      0.80     22544
+weighted avg       0.85      0.80      0.80     22544
+Selecting 62 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.84      0.83      0.81     22544
+weighted avg       0.86      0.81      0.81     22544
+Selecting 63 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.67      0.78     12833
+      normal       0.68      0.93      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 64 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 65 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.72      0.83     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.86      0.83      0.83     22544
+Selecting 66 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.71      0.81     12833
+      normal       0.71      0.94      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.82      0.82      0.81     22544
+weighted avg       0.84      0.81      0.81     22544
+Selecting 67 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.67      0.80     12833
+      normal       0.69      0.97      0.81      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.83      0.82      0.80     22544
+weighted avg       0.85      0.80      0.80     22544
+Selecting 68 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.68      0.79     12833
+      normal       0.69      0.96      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.84      0.80      0.80     22544
+Selecting 69 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.66      0.79     12833
+      normal       0.69      0.97      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.82      0.82      0.79     22544
+weighted avg       0.84      0.79      0.79     22544
+Selecting 70 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.72      0.82     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.84      0.84      0.83     22544
+weighted avg       0.86      0.83      0.83     22544
+Selecting 71 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.70      0.79     12833
+      normal       0.70      0.93      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.81      0.81      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 72 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.71      0.81     12833
+      normal       0.71      0.95      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.84      0.81      0.81     22544
+Selecting 73 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.70      0.80     12833
+      normal       0.70      0.94      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 74 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.70      0.80     12833
+      normal       0.71      0.94      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.84      0.80      0.80     22544
+Selecting 75 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 76 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.84     12833
+      normal       0.73      0.97      0.84      9711
+
+    accuracy                           0.84     22544
+   macro avg       0.85      0.85      0.84     22544
+weighted avg       0.87      0.84      0.84     22544
+Selecting 77 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 78 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.71      0.81     12833
+      normal       0.71      0.95      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.85      0.81      0.81     22544
+Selecting 79 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.71      0.80     12833
+      normal       0.70      0.93      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 80 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.71      0.80     12833
+      normal       0.70      0.92      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.81      0.81      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 81 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.71      0.80     12833
+      normal       0.70      0.93      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 82 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.71      0.81     12833
+      normal       0.71      0.94      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.82      0.82      0.81     22544
+weighted avg       0.84      0.81      0.81     22544
+Selecting 83 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.70      0.79     12833
+      normal       0.70      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.81      0.81      0.79     22544
+weighted avg       0.83      0.79      0.79     22544
+Selecting 84 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 85 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.69      0.81     12833
+      normal       0.70      0.97      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.85      0.81      0.81     22544
+Selecting 86 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.72      0.83     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 87 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.82     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 88 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 89 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.72      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 90 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.86      0.83      0.83     22544
+Selecting 91 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 92 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.73      0.83     12833
+      normal       0.73      0.97      0.84      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.87      0.83      0.83     22544
+Selecting 93 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.72      0.82     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 94 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.72      0.82     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.84      0.84      0.83     22544
+weighted avg       0.86      0.83      0.83     22544
+Selecting 95 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.73      0.82     12833
+      normal       0.72      0.93      0.81      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.83      0.83      0.82     22544
+weighted avg       0.84      0.82      0.82     22544
+Selecting 96 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.70      0.80     12833
+      normal       0.70      0.93      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 97 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.73      0.82     12833
+      normal       0.72      0.92      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.82      0.83      0.81     22544
+weighted avg       0.84      0.81      0.81     22544
+Selecting 98 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.71      0.81     12833
+      normal       0.71      0.93      0.80      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.82      0.82      0.81     22544
+weighted avg       0.84      0.81      0.81     22544
+Selecting 99 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.71      0.80     12833
+      normal       0.71      0.93      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 100 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.71      0.81     12833
+      normal       0.71      0.92      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 101 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.73      0.82     12833
+      normal       0.72      0.93      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.83      0.83      0.81     22544
+weighted avg       0.84      0.81      0.81     22544
+Selecting 102 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.72      0.81     12833
+      normal       0.72      0.92      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.82      0.82      0.81     22544
+weighted avg       0.84      0.81      0.81     22544
+Selecting 103 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.71      0.81     12833
+      normal       0.71      0.93      0.80      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.82      0.82      0.81     22544
+weighted avg       0.83      0.81      0.81     22544
+Selecting 104 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.72      0.81     12833
+      normal       0.72      0.93      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.82      0.83      0.81     22544
+weighted avg       0.84      0.81      0.81     22544
+Selecting 105 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.75      0.83     12833
+      normal       0.73      0.93      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.83      0.84      0.82     22544
+weighted avg       0.85      0.82      0.82     22544
+Selecting 106 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.72      0.81     12833
+      normal       0.71      0.93      0.80      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.82      0.82      0.81     22544
+weighted avg       0.83      0.81      0.81     22544
+Selecting 107 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.74      0.82     12833
+      normal       0.73      0.93      0.81      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.83      0.83      0.82     22544
+weighted avg       0.84      0.82      0.82     22544
+Selecting 108 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.74      0.83     12833
+      normal       0.73      0.92      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.83      0.83      0.82     22544
+weighted avg       0.84      0.82      0.82     22544
+Selecting 109 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.73      0.82     12833
+      normal       0.73      0.93      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.83      0.83      0.82     22544
+weighted avg       0.84      0.82      0.82     22544
+Selecting 110 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.73      0.82     12833
+      normal       0.72      0.93      0.81      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.83      0.83      0.82     22544
+weighted avg       0.84      0.82      0.82     22544
+Selecting 111 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.75      0.83     12833
+      normal       0.74      0.93      0.82      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.84      0.84      0.83     22544
+weighted avg       0.85      0.83      0.83     22544
+Selecting 112 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.74      0.82     12833
+      normal       0.73      0.93      0.81      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.83      0.83      0.82     22544
+weighted avg       0.84      0.82      0.82     22544
+Selecting 113 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.74      0.83     12833
+      normal       0.73      0.93      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.83      0.84      0.82     22544
+weighted avg       0.85      0.82      0.83     22544
+Selecting 114 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.74      0.83     12833
+      normal       0.73      0.93      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.83      0.84      0.82     22544
+weighted avg       0.85      0.82      0.82     22544
+Selecting 115 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.72      0.82     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 116 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.84      0.83     22544
+weighted avg       0.86      0.83      0.83     22544
+Selecting 117 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 118 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.71      0.82     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 119 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 120 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 121 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.70      0.81     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.84      0.83      0.81     22544
+weighted avg       0.85      0.81      0.81     22544

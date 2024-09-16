@@ -1,0 +1,4324 @@
+discretizzato - one hot dataset
+Selecting 10 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.60      0.73     12833
+      normal       0.64      0.95      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.79      0.78      0.75     22544
+weighted avg       0.81      0.75      0.75     22544
+Selecting 10 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.61      0.74     12833
+      normal       0.65      0.95      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.78      0.76     22544
+weighted avg       0.82      0.76      0.76     22544
+Selecting 10 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.61      0.75     12833
+      normal       0.65      0.95      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.78      0.76     22544
+weighted avg       0.82      0.76      0.76     22544
+Selecting 10 best features using f_classif...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.58      0.72     12833
+      normal       0.63      0.97      0.77      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.80      0.77      0.74     22544
+weighted avg       0.82      0.74      0.74     22544
+Selecting 10 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.57      0.71     12833
+      normal       0.63      0.95      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.81      0.74      0.73     22544
+Selecting 10 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.60      0.74     12833
+      normal       0.64      0.95      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.79      0.78      0.75     22544
+weighted avg       0.82      0.75      0.75     22544
+Selecting 10 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.61      0.74     12833
+      normal       0.65      0.95      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.78      0.76     22544
+weighted avg       0.82      0.76      0.76     22544
+Selecting 10 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.61      0.75     12833
+      normal       0.65      0.95      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.78      0.76     22544
+weighted avg       0.82      0.76      0.76     22544
+Selecting 10 best features using mutual_info_classif...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.58      0.72     12833
+      normal       0.63      0.97      0.77      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.80      0.77      0.74     22544
+weighted avg       0.82      0.74      0.74     22544
+Selecting 10 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.57      0.71     12833
+      normal       0.63      0.95      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.81      0.74      0.73     22544
+Selecting 10 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 10 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.64      0.77     12833
+      normal       0.67      0.97      0.80      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.81      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 10 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 10 best features using PCA...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 10 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 11 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.61      0.74     12833
+      normal       0.65      0.95      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.79      0.78      0.75     22544
+weighted avg       0.82      0.75      0.75     22544
+Selecting 11 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.62      0.75     12833
+      normal       0.65      0.95      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.79      0.76     22544
+weighted avg       0.82      0.76      0.76     22544
+Selecting 11 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.62      0.75     12833
+      normal       0.65      0.96      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.79      0.76     22544
+weighted avg       0.82      0.76      0.76     22544
+Selecting 11 best features using f_classif...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.58      0.72     12833
+      normal       0.64      0.96      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.79      0.77      0.74     22544
+weighted avg       0.82      0.75      0.74     22544
+Selecting 11 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.58      0.72     12833
+      normal       0.63      0.96      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.79      0.77      0.74     22544
+weighted avg       0.81      0.74      0.74     22544
+Selecting 11 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.60      0.73     12833
+      normal       0.64      0.92      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.77      0.76      0.74     22544
+weighted avg       0.79      0.74      0.74     22544
+Selecting 11 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.62      0.74     12833
+      normal       0.65      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 11 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.74     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 11 best features using mutual_info_classif...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.59      0.72     12833
+      normal       0.63      0.93      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.73     22544
+Selecting 11 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.88      0.62      0.73     12833
+      normal       0.64      0.89      0.74      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.76      0.75      0.74     22544
+weighted avg       0.78      0.74      0.73     22544
+Selecting 11 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 11 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.66      0.98      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 11 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 11 best features using PCA...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 11 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 12 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.62      0.74     12833
+      normal       0.65      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 12 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.62      0.74     12833
+      normal       0.65      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 12 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.79      0.78      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 12 best features using f_classif...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.72     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 12 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.89      0.62      0.73     12833
+      normal       0.64      0.90      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.77      0.76      0.74     22544
+weighted avg       0.78      0.74      0.74     22544
+Selecting 12 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.62      0.74     12833
+      normal       0.65      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 12 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.62      0.74     12833
+      normal       0.65      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 12 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.79      0.78      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 12 best features using mutual_info_classif...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.72     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 12 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.89      0.62      0.73     12833
+      normal       0.64      0.90      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.77      0.76      0.74     22544
+weighted avg       0.78      0.74      0.74     22544
+Selecting 12 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.75     12833
+      normal       0.66      0.98      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 12 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.65      0.78     12833
+      normal       0.68      0.97      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.82      0.81      0.79     22544
+weighted avg       0.84      0.79      0.79     22544
+Selecting 12 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 12 best features using PCA...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.65      0.98      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 12 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 13 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.90      0.60      0.72     12833
+      normal       0.63      0.92      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.77      0.76      0.73     22544
+weighted avg       0.79      0.73      0.73     22544
+Selecting 13 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.60      0.73     12833
+      normal       0.64      0.92      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.77      0.76      0.74     22544
+weighted avg       0.79      0.74      0.74     22544
+Selecting 13 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.90      0.59      0.71     12833
+      normal       0.63      0.92      0.74      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.76      0.75      0.73     22544
+weighted avg       0.78      0.73      0.73     22544
+Selecting 13 best features using f_classif...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.59      0.72     12833
+      normal       0.63      0.92      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.77      0.76      0.73     22544
+weighted avg       0.79      0.73      0.73     22544
+Selecting 13 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.90      0.58      0.71     12833
+      normal       0.63      0.92      0.74      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.76      0.75      0.73     22544
+weighted avg       0.78      0.73      0.72     22544
+Selecting 13 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.90      0.59      0.72     12833
+      normal       0.63      0.92      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.77      0.76      0.73     22544
+weighted avg       0.79      0.73      0.73     22544
+Selecting 13 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.61      0.73     12833
+      normal       0.64      0.92      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.79      0.74      0.74     22544
+Selecting 13 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.90      0.59      0.71     12833
+      normal       0.63      0.92      0.74      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.76      0.75      0.73     22544
+weighted avg       0.78      0.73      0.73     22544
+Selecting 13 best features using mutual_info_classif...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.59      0.72     12833
+      normal       0.63      0.92      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.77      0.76      0.73     22544
+weighted avg       0.79      0.73      0.73     22544
+Selecting 13 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.90      0.58      0.71     12833
+      normal       0.63      0.92      0.74      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.76      0.75      0.73     22544
+weighted avg       0.78      0.73      0.72     22544
+Selecting 13 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.98      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.77     22544
+weighted avg       0.84      0.78      0.77     22544
+Selecting 13 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 13 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 13 best features using PCA...
+SVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.98      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 13 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.61      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 14 best features using f_classif...
+Random Forest...
+discretizzato - label dataset
+Selecting 10 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.76     12833
+      normal       0.67      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 10 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 10 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.61      0.73     12833
+      normal       0.64      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 10 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.65      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.78      0.78      0.76     22544
+weighted avg       0.80      0.76      0.75     22544
+Selecting 10 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 10 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.66      0.78     12833
+      normal       0.68      0.97      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.83      0.82      0.79     22544
+weighted avg       0.85      0.79      0.79     22544
+Selecting 10 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.53      0.68     12833
+      normal       0.61      0.97      0.75      9711
+
+    accuracy                           0.72     22544
+   macro avg       0.78      0.75      0.72     22544
+weighted avg       0.81      0.72      0.71     22544
+Selecting 10 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.71      0.82     12833
+      normal       0.72      0.97      0.83      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 10 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 10 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.64      0.77     12833
+      normal       0.67      0.96      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.81      0.80      0.78     22544
+weighted avg       0.83      0.78      0.78     22544
+Selecting 10 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 10 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.78      0.77     22544
+weighted avg       0.81      0.77      0.76     22544
+Selecting 11 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.79      0.78      0.75     22544
+weighted avg       0.81      0.75      0.75     22544
+Selecting 11 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 11 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.61      0.73     12833
+      normal       0.64      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 11 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.65      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 11 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.64      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 11 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.82      0.78      0.77     22544
+Selecting 11 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.99      0.35      0.52     12833
+      normal       0.54      0.99      0.70      9711
+
+    accuracy                           0.63     22544
+   macro avg       0.76      0.67      0.61     22544
+weighted avg       0.79      0.63      0.60     22544
+Selecting 11 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.71      0.80     12833
+      normal       0.71      0.93      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 11 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 11 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.63      0.76     12833
+      normal       0.66      0.96      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 11 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.72     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 11 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.65      0.76     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 12 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 12 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 12 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.66      0.79     12833
+      normal       0.69      0.97      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.82      0.82      0.79     22544
+weighted avg       0.84      0.79      0.79     22544
+Selecting 12 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.77     22544
+weighted avg       0.84      0.78      0.77     22544
+Selecting 12 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.63      0.76     12833
+      normal       0.67      0.96      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 12 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 12 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.48      0.65     12833
+      normal       0.59      0.98      0.74      9711
+
+    accuracy                           0.70     22544
+   macro avg       0.78      0.73      0.69     22544
+weighted avg       0.81      0.70      0.68     22544
+Selecting 12 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.69      0.79     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.80      0.80      0.79     22544
+weighted avg       0.82      0.79      0.79     22544
+Selecting 12 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 12 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 12 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 12 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.66      0.76     12833
+      normal       0.67      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 13 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.63      0.75     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.80      0.76      0.76     22544
+Selecting 13 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 13 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.63      0.77     12833
+      normal       0.67      0.99      0.80      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.83      0.81      0.78     22544
+weighted avg       0.85      0.78      0.78     22544
+Selecting 13 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.69      0.79     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.81      0.81      0.79     22544
+weighted avg       0.82      0.79      0.79     22544
+Selecting 13 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.63      0.74     12833
+      normal       0.65      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 13 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 13 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.72      0.83     12833
+      normal       0.73      0.97      0.83      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.85      0.85      0.83     22544
+weighted avg       0.86      0.83      0.83     22544
+Selecting 13 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.69      0.79     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.81      0.81      0.79     22544
+weighted avg       0.82      0.79      0.79     22544
+Selecting 13 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 13 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.61      0.73     12833
+      normal       0.64      0.92      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 13 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.63      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 13 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.64      0.75     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.80      0.76      0.76     22544
+Selecting 14 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.78      0.77     22544
+weighted avg       0.81      0.77      0.76     22544
+Selecting 14 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 14 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.78      0.84     12833
+      normal       0.75      0.89      0.82      9711
+
+    accuracy                           0.83     22544
+   macro avg       0.83      0.84      0.83     22544
+weighted avg       0.84      0.83      0.83     22544
+Selecting 14 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.70      0.80     12833
+      normal       0.70      0.92      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.81      0.81      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 14 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.63      0.74     12833
+      normal       0.65      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.78      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 14 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 14 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.82     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 14 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.69      0.79     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.81      0.81      0.79     22544
+weighted avg       0.82      0.79      0.79     22544
+Selecting 14 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 14 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.59      0.72     12833
+      normal       0.63      0.93      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.77      0.76      0.74     22544
+weighted avg       0.79      0.74      0.73     22544
+Selecting 14 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 14 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.64      0.75     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.80      0.76      0.76     22544
+Selecting 15 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.75     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 15 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 15 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.63      0.77     12833
+      normal       0.67      0.98      0.80      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.81      0.78     22544
+weighted avg       0.85      0.78      0.78     22544
+Selecting 15 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.70      0.80     12833
+      normal       0.70      0.92      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.81      0.81      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 15 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 15 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.93      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 15 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.70      0.82     12833
+      normal       0.71      0.97      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.84      0.84      0.82     22544
+weighted avg       0.86      0.82      0.82     22544
+Selecting 15 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.70      0.80     12833
+      normal       0.70      0.92      0.80      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.81      0.81      0.80     22544
+weighted avg       0.83      0.80      0.80     22544
+Selecting 15 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 15 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.75     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.80      0.76      0.76     22544
+Selecting 15 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.59      0.72     12833
+      normal       0.63      0.94      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.73     22544
+Selecting 15 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 16 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 16 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 16 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.57      0.72     12833
+      normal       0.63      0.99      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.81      0.78      0.74     22544
+weighted avg       0.83      0.75      0.74     22544
+Selecting 16 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.69      0.79     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.81      0.81      0.79     22544
+weighted avg       0.82      0.79      0.79     22544
+Selecting 16 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 16 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.68      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 16 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.59      0.74     12833
+      normal       0.65      0.98      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.84      0.76      0.76     22544
+Selecting 16 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.70      0.79     12833
+      normal       0.70      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.81      0.81      0.79     22544
+weighted avg       0.82      0.79      0.79     22544
+Selecting 16 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 16 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 16 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 16 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.77     22544
+Selecting 17 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 17 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 17 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.68      0.80     12833
+      normal       0.70      0.98      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.84      0.83      0.81     22544
+weighted avg       0.86      0.81      0.81     22544
+Selecting 17 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.69      0.79     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.81      0.80      0.79     22544
+weighted avg       0.82      0.79      0.79     22544
+Selecting 17 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 17 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 17 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.75      0.84     12833
+      normal       0.74      0.96      0.83      9711
+
+    accuracy                           0.84     22544
+   macro avg       0.85      0.85      0.84     22544
+weighted avg       0.86      0.84      0.84     22544
+Selecting 17 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.69      0.79     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.81      0.80      0.79     22544
+weighted avg       0.82      0.79      0.79     22544
+Selecting 17 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 17 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.61      0.73     12833
+      normal       0.64      0.92      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 17 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.57      0.71     12833
+      normal       0.63      0.94      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.80      0.73      0.73     22544
+Selecting 17 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 18 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.65      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.78      0.78      0.76     22544
+weighted avg       0.80      0.76      0.75     22544
+Selecting 18 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 18 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.54      0.70     12833
+      normal       0.62      0.99      0.76      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.80      0.76      0.73     22544
+weighted avg       0.83      0.73      0.73     22544
+Selecting 18 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.68      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 18 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.75     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 18 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 18 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.66      0.78     12833
+      normal       0.68      0.98      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.83      0.82      0.79     22544
+weighted avg       0.85      0.79      0.79     22544
+Selecting 18 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.68      0.78     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.80      0.80      0.79     22544
+weighted avg       0.82      0.79      0.78     22544
+Selecting 18 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.59      0.73     12833
+      normal       0.64      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.78      0.76     22544
+weighted avg       0.83      0.76      0.75     22544
+Selecting 18 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.61      0.74     12833
+      normal       0.64      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 18 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.60      0.72     12833
+      normal       0.64      0.94      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 18 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.77     22544
+Selecting 19 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.63      0.76     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 19 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 19 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.51      0.67     12833
+      normal       0.60      0.99      0.75      9711
+
+    accuracy                           0.72     22544
+   macro avg       0.79      0.75      0.71     22544
+weighted avg       0.82      0.72      0.71     22544
+Selecting 19 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.68      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 19 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.65      0.78     12833
+      normal       0.68      0.96      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.82      0.81      0.79     22544
+weighted avg       0.84      0.79      0.79     22544
+Selecting 19 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 19 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.60      0.74     12833
+      normal       0.65      0.98      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.84      0.76      0.76     22544
+Selecting 19 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.68      0.78     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.80      0.80      0.79     22544
+weighted avg       0.82      0.79      0.78     22544
+Selecting 19 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.82      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 19 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 19 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.58      0.73     12833
+      normal       0.64      0.98      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.80      0.78      0.75     22544
+weighted avg       0.83      0.75      0.75     22544
+Selecting 19 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 20 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.65      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.80      0.76      0.75     22544
+Selecting 20 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.93      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 20 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.59      0.73     12833
+      normal       0.64      0.94      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.79      0.77      0.74     22544
+weighted avg       0.81      0.74      0.74     22544
+Selecting 20 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 20 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.64      0.76     12833
+      normal       0.67      0.96      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.81      0.80      0.78     22544
+weighted avg       0.83      0.78      0.77     22544
+Selecting 20 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 20 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.79      0.85     12833
+      normal       0.76      0.91      0.83      9711
+
+    accuracy                           0.84     22544
+   macro avg       0.84      0.85      0.84     22544
+weighted avg       0.85      0.84      0.84     22544
+Selecting 20 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.68      0.78     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 20 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 20 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 20 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.59      0.73     12833
+      normal       0.64      0.97      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.78      0.75     22544
+weighted avg       0.83      0.76      0.75     22544
+Selecting 20 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 21 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.62      0.75     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 21 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 21 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.61      0.74     12833
+      normal       0.65      0.94      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.79      0.77      0.75     22544
+weighted avg       0.81      0.75      0.75     22544
+Selecting 21 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 21 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.63      0.76     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 21 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 21 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.57      0.72     12833
+      normal       0.63      0.98      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.81      0.78      0.75     22544
+weighted avg       0.83      0.75      0.74     22544
+Selecting 21 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.68      0.78     12833
+      normal       0.68      0.92      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 21 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.59      0.74     12833
+      normal       0.64      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.78      0.76     22544
+weighted avg       0.83      0.76      0.75     22544
+Selecting 21 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 21 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.59      0.72     12833
+      normal       0.63      0.94      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 21 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 22 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 22 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 22 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.52      0.68     12833
+      normal       0.61      0.98      0.75      9711
+
+    accuracy                           0.72     22544
+   macro avg       0.79      0.75      0.71     22544
+weighted avg       0.82      0.72      0.71     22544
+Selecting 22 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.78     22544
+Selecting 22 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 22 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.93      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.82      0.77      0.77     22544
+Selecting 22 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.62      0.74     12833
+      normal       0.65      0.94      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.75     22544
+Selecting 22 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.78     22544
+Selecting 22 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.98      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 22 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 22 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.60      0.73     12833
+      normal       0.64      0.94      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 22 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.78      0.77     22544
+Selecting 23 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 23 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.93      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 23 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.53      0.69     12833
+      normal       0.61      0.98      0.76      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.80      0.76      0.72     22544
+weighted avg       0.82      0.73      0.72     22544
+Selecting 23 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 23 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.76     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 23 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.93      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.82      0.77      0.77     22544
+Selecting 23 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.58      0.71     12833
+      normal       0.63      0.94      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.80      0.74      0.73     22544
+Selecting 23 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 23 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 23 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.77      0.76     22544
+Selecting 23 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.59      0.74     12833
+      normal       0.64      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.78      0.76     22544
+weighted avg       0.83      0.76      0.75     22544
+Selecting 23 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 24 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 24 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.93      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 24 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.38      0.54     12833
+      normal       0.55      0.99      0.70      9711
+
+    accuracy                           0.64     22544
+   macro avg       0.76      0.68      0.62     22544
+weighted avg       0.79      0.64      0.61     22544
+Selecting 24 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 24 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.61      0.74     12833
+      normal       0.65      0.96      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.79      0.76     22544
+weighted avg       0.82      0.76      0.76     22544
+Selecting 24 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 24 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 24 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 24 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 24 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.92      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 24 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.59      0.73     12833
+      normal       0.64      0.97      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.78      0.75     22544
+weighted avg       0.83      0.76      0.75     22544
+Selecting 24 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 25 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 25 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 25 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.60      0.73     12833
+      normal       0.64      0.94      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 25 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 25 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.63      0.76     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 25 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 25 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.88      0.87      0.88     12833
+      normal       0.83      0.84      0.84      9711
+
+    accuracy                           0.86     22544
+   macro avg       0.86      0.86      0.86     22544
+weighted avg       0.86      0.86      0.86     22544
+Selecting 25 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 25 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 25 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 25 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.59      0.73     12833
+      normal       0.64      0.97      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.78      0.75     22544
+weighted avg       0.83      0.76      0.75     22544
+Selecting 25 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 26 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.75     22544
+weighted avg       0.80      0.76      0.75     22544
+Selecting 26 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 26 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.58      0.71     12833
+      normal       0.63      0.94      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.80      0.74      0.73     22544
+Selecting 26 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 26 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 26 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 26 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.88      0.88      0.88     12833
+      normal       0.84      0.84      0.84      9711
+
+    accuracy                           0.86     22544
+   macro avg       0.86      0.86      0.86     22544
+weighted avg       0.86      0.86      0.86     22544
+Selecting 26 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 26 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.82      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 26 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.65      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.80      0.76      0.75     22544
+Selecting 26 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 26 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.78     22544
+Selecting 27 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 27 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 27 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.59      0.72     12833
+      normal       0.63      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 27 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 27 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.63      0.76     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 27 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 27 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.86      0.93      0.89     12833
+      normal       0.89      0.79      0.84      9711
+
+    accuracy                           0.87     22544
+   macro avg       0.87      0.86      0.87     22544
+weighted avg       0.87      0.87      0.87     22544
+Selecting 27 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 27 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.82      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 27 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 27 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.59      0.73     12833
+      normal       0.64      0.97      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.78      0.75     22544
+weighted avg       0.83      0.76      0.75     22544
+Selecting 27 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.78     22544
+Selecting 28 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 28 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 28 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.52      0.68     12833
+      normal       0.61      0.99      0.75      9711
+
+    accuracy                           0.72     22544
+   macro avg       0.79      0.75      0.71     22544
+weighted avg       0.82      0.72      0.71     22544
+Selecting 28 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 28 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 28 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 28 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.74      0.82     12833
+      normal       0.73      0.91      0.81      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.82      0.82      0.81     22544
+weighted avg       0.83      0.81      0.81     22544
+Selecting 28 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 28 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 28 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 28 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.60      0.73     12833
+      normal       0.64      0.94      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 28 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 29 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.62      0.75     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 29 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 29 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 29 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 29 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.64      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 29 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 29 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 29 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.77     22544
+Selecting 29 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.67      0.98      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.77     22544
+Selecting 29 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.66      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 29 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.78      0.76     22544
+weighted avg       0.83      0.76      0.75     22544
+Selecting 29 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 30 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 30 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 30 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.58      0.71     12833
+      normal       0.63      0.94      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.80      0.73      0.73     22544
+Selecting 30 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 30 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 30 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 30 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 30 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 30 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 30 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 30 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 30 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 31 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.63      0.76     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 31 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 31 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.50      0.66     12833
+      normal       0.60      0.99      0.75      9711
+
+    accuracy                           0.71     22544
+   macro avg       0.79      0.74      0.70     22544
+weighted avg       0.82      0.71      0.70     22544
+Selecting 31 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 31 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.61      0.75     12833
+      normal       0.65      0.96      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.79      0.76     22544
+weighted avg       0.82      0.76      0.76     22544
+Selecting 31 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.93      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 31 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 31 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 31 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.98      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 31 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.93      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 31 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.59      0.72     12833
+      normal       0.63      0.94      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.73     22544
+Selecting 31 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.78     22544
+Selecting 32 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 32 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 32 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.57      0.71     12833
+      normal       0.62      0.95      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.80      0.73      0.73     22544
+Selecting 32 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 32 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 32 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 32 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.57      0.72     12833
+      normal       0.63      0.97      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.80      0.77      0.74     22544
+weighted avg       0.82      0.75      0.74     22544
+Selecting 32 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 32 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.98      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 32 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 32 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.60      0.73     12833
+      normal       0.64      0.94      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 32 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 33 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 33 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.77     22544
+Selecting 33 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.52      0.68     12833
+      normal       0.61      0.99      0.75      9711
+
+    accuracy                           0.72     22544
+   macro avg       0.79      0.75      0.72     22544
+weighted avg       0.82      0.72      0.71     22544
+Selecting 33 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 33 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.61      0.74     12833
+      normal       0.65      0.96      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.80      0.78      0.76     22544
+weighted avg       0.82      0.76      0.76     22544
+Selecting 33 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.68      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 33 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.55      0.70     12833
+      normal       0.62      0.98      0.76      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.80      0.76      0.73     22544
+weighted avg       0.82      0.73      0.73     22544
+Selecting 33 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 33 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.75     12833
+      normal       0.66      0.98      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 33 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.93      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 33 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 33 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.78     22544
+Selecting 34 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.63      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 34 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.77     22544
+Selecting 34 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 34 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 34 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 34 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 34 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.75     22544
+weighted avg       0.80      0.76      0.75     22544
+Selecting 34 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 34 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 34 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 34 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.75     12833
+      normal       0.66      0.98      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 34 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 35 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 35 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 35 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.55      0.70     12833
+      normal       0.62      0.98      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.80      0.77      0.73     22544
+weighted avg       0.82      0.74      0.73     22544
+Selecting 35 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 35 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 35 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.77     22544
+Selecting 35 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 35 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 35 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 35 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 35 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 35 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 36 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.62      0.75     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 36 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 36 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.59      0.72     12833
+      normal       0.63      0.94      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 36 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 36 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.63      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 36 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.77     12833
+      normal       0.67      0.93      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 36 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.57      0.72     12833
+      normal       0.63      0.98      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.80      0.77      0.74     22544
+weighted avg       0.82      0.75      0.74     22544
+Selecting 36 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 36 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 36 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 36 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.58      0.72     12833
+      normal       0.63      0.94      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.73     22544
+Selecting 36 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 37 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 37 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.68      0.78     12833
+      normal       0.68      0.92      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 37 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.58      0.71     12833
+      normal       0.63      0.94      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.80      0.73      0.73     22544
+Selecting 37 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 37 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.63      0.76     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 37 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.68      0.78     12833
+      normal       0.69      0.92      0.79      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.80      0.80      0.79     22544
+weighted avg       0.82      0.79      0.79     22544
+Selecting 37 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.53      0.69     12833
+      normal       0.61      0.98      0.76      9711
+
+    accuracy                           0.72     22544
+   macro avg       0.80      0.76      0.72     22544
+weighted avg       0.82      0.72      0.72     22544
+Selecting 37 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 37 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 37 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 37 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.59      0.74     12833
+      normal       0.64      0.98      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.78      0.76     22544
+weighted avg       0.83      0.76      0.75     22544
+Selecting 37 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.79      0.78     22544
+weighted avg       0.81      0.78      0.78     22544
+Selecting 38 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 38 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 38 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.56      0.71     12833
+      normal       0.63      0.98      0.77      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.80      0.77      0.74     22544
+weighted avg       0.82      0.74      0.74     22544
+Selecting 38 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 38 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.96      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 38 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 38 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.57      0.71     12833
+      normal       0.62      0.94      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.80      0.73      0.72     22544
+Selecting 38 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 38 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.82      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 38 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.93      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 38 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.60      0.73     12833
+      normal       0.64      0.94      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 38 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 39 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 39 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 39 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.58      0.71     12833
+      normal       0.63      0.94      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.80      0.74      0.73     22544
+Selecting 39 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 39 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 39 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.78     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 39 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.57      0.70     12833
+      normal       0.62      0.94      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.80      0.73      0.72     22544
+Selecting 39 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 39 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.77     22544
+Selecting 39 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 39 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 39 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 40 best features using f_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.62      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 40 best features using f_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 40 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.72      0.81     12833
+      normal       0.71      0.92      0.80      9711
+
+    accuracy                           0.81     22544
+   macro avg       0.82      0.82      0.81     22544
+weighted avg       0.83      0.81      0.81     22544
+Selecting 40 best features using f_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 40 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.96      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 40 best features using mutual_info_classif...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.65      0.76     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 40 best features using mutual_info_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.77      0.83     12833
+      normal       0.75      0.90      0.82      9711
+
+    accuracy                           0.82     22544
+   macro avg       0.83      0.83      0.82     22544
+weighted avg       0.84      0.82      0.83     22544
+Selecting 40 best features using mutual_info_classif...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.66      0.77     12833
+      normal       0.67      0.92      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.80      0.79      0.77     22544
+weighted avg       0.81      0.77      0.77     22544
+Selecting 40 best features using PCA...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.65      0.98      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 40 best features using PCA...
+Decision Tree...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.64      0.76     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.77      0.76     22544
+Selecting 40 best features using PCA...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.60      0.73     12833
+      normal       0.64      0.94      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 40 best features using PCA...
+KNeighbors...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.67      0.77     12833
+      normal       0.68      0.92      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544

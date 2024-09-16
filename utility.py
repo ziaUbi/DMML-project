@@ -43,19 +43,6 @@ def oh_encoder(train_df, test_df, nominal_features):
 
     return train_ohe, test_ohe
 
-def t_encoder(train_df, test_df, nominal_features):
-    enc = TargetEncoder()
-    train_encoded = enc.fit_transform(train_df[nominal_features], train_df['label'])
-    test_encoded = enc.transform(test_df[nominal_features])
-
-    train_t = train_df.drop(nominal_features, axis=1)
-    train_t = pd.concat([train_t, pd.DataFrame(train_encoded, columns=nominal_features)], axis=1)
-
-    test_t = test_df.drop(nominal_features, axis=1)
-    test_t = pd.concat([test_t, pd.DataFrame(test_encoded, columns=nominal_features)], axis=1)
-
-    return train_t, test_t
-
 def l_encoder(train_df, test_df, nominal_features):
     enc = LabelEncoder()
     for feature in nominal_features:

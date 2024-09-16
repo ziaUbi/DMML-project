@@ -1,0 +1,311 @@
+scalato - label dataset
+Selecting 10 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.65      0.77     12833
+      normal       0.67      0.97      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.82      0.81      0.79     22544
+weighted avg       0.84      0.79      0.78     22544
+Selecting 11 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 12 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 13 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 14 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 15 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.78      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 16 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.78      0.76     22544
+weighted avg       0.83      0.76      0.75     22544
+Selecting 17 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.76     22544
+Selecting 18 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.77     22544
+Selecting 19 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.82      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 20 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.61      0.75     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 21 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 22 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 23 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.77     22544
+Selecting 24 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 25 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.64      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.81      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 26 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.64      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.81      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 27 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.64      0.77     12833
+      normal       0.67      0.97      0.80      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.81      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 28 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 29 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.64      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.81      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 30 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.64      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 31 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.64      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 32 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.77      0.77     22544
+Selecting 33 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.77     22544
+Selecting 34 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 35 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.75     12833
+      normal       0.66      0.97      0.78      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.79      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 36 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.77     22544
+Selecting 37 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.62      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.77     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.83      0.77      0.77     22544
+Selecting 38 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.66      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.81      0.80      0.77     22544
+weighted avg       0.84      0.78      0.77     22544
+Selecting 39 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.63      0.76     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.77     22544
+Selecting 40 best features using mutual_info_classif...
+Random Forest...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.64      0.77     12833
+      normal       0.67      0.97      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
