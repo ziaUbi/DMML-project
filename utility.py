@@ -5,7 +5,6 @@ from sklearn.feature_selection import SelectKBest,  SequentialFeatureSelector, R
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import StratifiedKFold
 from sklearn.decomposition import PCA
-from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, recall_score, precision_score, f1_score, roc_auc_score
 
 def assign_attack_type(label):
     attack_dict = { 'normal': 'normal',
@@ -126,9 +125,7 @@ class Dataset:
     def __init__(self, data, columns):
         self.data = data
         self.data.columns = columns
-        # 'su_attempted' should be binary but has 3 values. We replace '2.0' with '0.0'
         self.data['su_attempted'] = self.data['su_attempted'].replace(2, 0)
-        # 'num_outbound_cmds' always has the same value so we can drop it
         self.data = self.data.drop('num_outbound_cmds', axis=1)
         self.data = self.data.drop('score', axis=1)
 
