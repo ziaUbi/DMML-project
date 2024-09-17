@@ -122,32 +122,13 @@ def pca(train_data, test_data, k):
 
     return X_train_pca, X_test_pca
 
-def eval_metric(model, X_train, y_train, X_test, y_test):
-    y_train_pred = model.predict(X_train)
-    y_pred = model.predict(X_test)
-    y_pred_proba = model.predict_proba(X_test)
-    
-    print("Test_Set")
-    print(confusion_matrix(y_test, y_pred))
-    print(classification_report(y_test, y_pred))
-    print()
-    print("Train_Set")
-    print(confusion_matrix(y_train, y_train_pred))
-    print(classification_report(y_train, y_train_pred))
-    print("Other Metrics")
-    print("Accuracy: ", accuracy_score(y_test, y_pred))
-    print("Recall: ", recall_score(y_test, y_pred, average='weighted'))
-    print("Precision: ", precision_score(y_test, y_pred, average='weighted'))
-    print("F1: ", f1_score(y_test, y_pred, average='weighted'))
-    print("ROC_AUC: ", roc_auc_score(y_test, y_pred_proba[:,1]))
-
 class Dataset:    
     def __init__(self, data, columns):
         self.data = data
         self.data.columns = columns
-        # 'su_attempted' dovrebbe essere binario ma ha 3 valori. Sostituiamo '2.0' con '0.0'
+        # 'su_attempted' should be binary but has 3 values. We replace '2.0' with '0.0'
         self.data['su_attempted'] = self.data['su_attempted'].replace(2, 0)
-        # 'num_outbound_cmds' ha sempre lo stesso valore quindi possiamo dropparla
+        # 'num_outbound_cmds' always has the same value so we can drop it
         self.data = self.data.drop('num_outbound_cmds', axis=1)
         self.data = self.data.drop('score', axis=1)
 
