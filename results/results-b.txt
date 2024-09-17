@@ -1,0 +1,311 @@
+scalato - label dataset
+Selecting 10 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 11 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.91      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 12 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.65      0.78     12833
+      normal       0.68      0.97      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.82      0.81      0.79     22544
+weighted avg       0.85      0.79      0.79     22544
+Selecting 13 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.64      0.78     12833
+      normal       0.68      0.98      0.80      9711
+
+    accuracy                           0.79     22544
+   macro avg       0.83      0.81      0.79     22544
+weighted avg       0.85      0.79      0.79     22544
+Selecting 14 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.63      0.76     12833
+      normal       0.66      0.98      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.78     22544
+Selecting 15 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.70      0.80     12833
+      normal       0.70      0.94      0.81      9711
+
+    accuracy                           0.80     22544
+   macro avg       0.82      0.82      0.80     22544
+weighted avg       0.84      0.80      0.80     22544
+Selecting 16 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.58      0.73     12833
+      normal       0.64      0.98      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.81      0.78      0.75     22544
+weighted avg       0.83      0.75      0.75     22544
+Selecting 17 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.94      0.66      0.78     12833
+      normal       0.68      0.95      0.79      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.81      0.80      0.78     22544
+weighted avg       0.83      0.78      0.78     22544
+Selecting 18 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.65      0.77     12833
+      normal       0.67      0.94      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 19 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.60      0.74     12833
+      normal       0.65      0.97      0.78      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.81      0.79      0.76     22544
+weighted avg       0.83      0.76      0.76     22544
+Selecting 20 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.66      0.77     12833
+      normal       0.68      0.93      0.78      9711
+
+    accuracy                           0.78     22544
+   macro avg       0.80      0.80      0.78     22544
+weighted avg       0.82      0.78      0.78     22544
+Selecting 21 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.97      0.55      0.71     12833
+      normal       0.62      0.98      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.80      0.77      0.73     22544
+weighted avg       0.82      0.74      0.73     22544
+Selecting 22 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.50      0.66     12833
+      normal       0.60      0.99      0.75      9711
+
+    accuracy                           0.71     22544
+   macro avg       0.79      0.74      0.71     22544
+weighted avg       0.82      0.71      0.70     22544
+Selecting 23 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.93      0.57      0.71     12833
+      normal       0.62      0.94      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.77      0.76      0.73     22544
+weighted avg       0.80      0.73      0.73     22544
+Selecting 24 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 25 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 26 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 27 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 28 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 29 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.58      0.72     12833
+      normal       0.63      0.94      0.75      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.76      0.73     22544
+weighted avg       0.80      0.74      0.73     22544
+Selecting 30 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.95      0.56      0.71     12833
+      normal       0.62      0.96      0.76      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.79      0.76      0.73     22544
+weighted avg       0.81      0.73      0.73     22544
+Selecting 31 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 32 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.43      0.60     12833
+      normal       0.57      0.99      0.72      9711
+
+    accuracy                           0.67     22544
+   macro avg       0.77      0.71      0.66     22544
+weighted avg       0.80      0.67      0.65     22544
+Selecting 33 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.74     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.74      0.74     22544
+Selecting 34 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 35 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.60      0.73     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.74     22544
+weighted avg       0.80      0.75      0.74     22544
+Selecting 36 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.63      0.75     12833
+      normal       0.66      0.93      0.77      9711
+
+    accuracy                           0.76     22544
+   macro avg       0.79      0.78      0.76     22544
+weighted avg       0.81      0.76      0.76     22544
+Selecting 37 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.57      0.71     12833
+      normal       0.62      0.94      0.75      9711
+
+    accuracy                           0.73     22544
+   macro avg       0.77      0.76      0.73     22544
+weighted avg       0.80      0.73      0.73     22544
+Selecting 38 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.61      0.74     12833
+      normal       0.64      0.93      0.76      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.78      0.77      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
+Selecting 39 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.98      0.52      0.68     12833
+      normal       0.61      0.99      0.75      9711
+
+    accuracy                           0.72     22544
+   macro avg       0.79      0.75      0.72     22544
+weighted avg       0.82      0.72      0.71     22544
+Selecting 40 best features using f_classif...
+LinearSVC...
+              precision    recall  f1-score   support
+
+      attack       0.92      0.62      0.74     12833
+      normal       0.65      0.93      0.77      9711
+
+    accuracy                           0.75     22544
+   macro avg       0.79      0.78      0.75     22544
+weighted avg       0.80      0.75      0.75     22544
