@@ -1,12 +1,11 @@
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import OneHotEncoder, TargetEncoder, MinMaxScaler, LabelEncoder
+from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, LabelEncoder
 from sklearn.feature_selection import SelectKBest,  SequentialFeatureSelector, RFE
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import StratifiedKFold
 from sklearn.decomposition import PCA
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, recall_score, precision_score, f1_score, roc_auc_score
-from sklearn.metrics import RocCurveDisplay
 
 def assign_attack_type(label):
     attack_dict = { 'normal': 'normal',
@@ -141,8 +140,6 @@ def eval_metric(model, X_train, y_train, X_test, y_test):
     print("Precision: ", precision_score(y_test, y_pred, average='weighted'))
     print("F1: ", f1_score(y_test, y_pred, average='weighted'))
     print("ROC_AUC: ", roc_auc_score(y_test, y_pred_proba[:,1]))
-
-    RocCurveDisplay.from_estimator(model, X_test, y_test)
 
 class Dataset:    
     def __init__(self, data, columns):

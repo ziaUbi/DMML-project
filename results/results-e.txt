@@ -5199,3 +5199,4 @@ KNeighbors...
     accuracy                           0.74     22544
    macro avg       0.71      0.49      0.49     22544
 weighted avg       0.73      0.74      0.69     22544
+scalato - label - 5 label dataset
